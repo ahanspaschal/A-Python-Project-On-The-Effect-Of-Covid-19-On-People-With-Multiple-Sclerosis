@@ -12,12 +12,12 @@ Patient Information:
 - age_in_cat: grouped into categories 0-3, where ‘0’ represents ages less than 18 years, ‘1’, for ages between 18 and 50 years, ‘2’, ages between 21 and 70 years, then
 category ‘3’ for ages above 70 years.
 - sex: this represents the binary classification of patients gender into male or female.
-- 
+  
 COVID-19 Specific Information
 - covid19_confirmed_case: this column has two unique values; ‘yes’ and ‘no’ which confirms the patient’s covid-19 diagnostic status.
 - covid19_ventilation: this column contains ‘yes’ and ‘no’ which indicates wether the patient used a ventilator or not
 - covid19_outcome_recovered: this column contains ‘yes’, ‘no’ and ‘not_applicable’. It indicates if the patient recovered from covid-19 or not.
-- 
+  
 Multiple Sclerosis (MS) Specific Information
 - ms_type2: this column represents the type of MS. It has three unique entries, ‘relapse_remitting’, ‘progressive_ms’ and ‘other’ which stands for other types of MS
 that are not the both already mentioned.
